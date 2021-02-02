@@ -1,0 +1,10 @@
+POSTGRES_HOST=localhost
+POSTGRES_USER=boilerplate-dev
+POSTGRES_PASSWORD=NdJGaa7ZJS
+POSTGRES_DB=boilerplate-dev
+NODE_ENV=development
+WEB_PORT=8080
+WEB_IP=0.0.0.0
+API_URL=http://localhost:8080/api
+
+JWT_SECRET=0a6b944d-d2fb-46fc-a85e-0295c986cd9f

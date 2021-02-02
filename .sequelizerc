@@ -1,0 +1,9 @@
+const ENV = process.env.NODE_ENV || 'development';
+const database = 'config/db';
+
+module.exports = {
+  config: database,
+  'migrations-path': 'config/db/sequelize/migrate',
+  'models-path': 'src/app/models',
+  'seeders-path': 'config/db/sequelize/seeds'
+};
